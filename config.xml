@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	id="com.gemscis-abudhabi" 
+	version="1.0.0">
+	
+    <name>
+        TCHS
+    </name>
+        <description>
+        The Cambridge High School, Abu Dhabi, provides high quality education based on The National Curriculum for England to students from Kindergarten to Year 13. The school has distinct and separate science laboratories for practical sessions in Physics, Chemistry and Biology. The labs are spacious and offer modern and excellent equipment where students are encouraged to use their analytical and creative skills through research and experimentation. The school has four ICT labs equipped with high speed internet connection. All classes are equipped with smart boards, multimedia projectors to facilitate learning and all staffs are equipped with laptop. The school features a music studio to provide students with adequate opportunity to develop their music abilities. The Music Studio is well equipped with a keyboards, steel drums and percussion and wind instruments.</description>
+
+    <author href="http://www.gemscis-abudhabi.com/" email="lpanjwani@outlook.com">
+        Lavesh Panjwani
+    </author>
+    
+<preference name="phonegap-version" value="3.5.0" />
+    
+
+
+    
+
+<preference name="stay-in-webview" value="false" />
+<gap:plugin name="org.apache.cordova.inappbrowser" />
+<access origin="*" subdomains="true" browserOnly="true"/>
+    
+    
+    <icon src="images/logo.png" width="160" height="92" />
+    
+    
+   <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
+    <preference name="StatusBarBackgroundColor" value="#07BEE5" />
+
+    <plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" spec="0.1.1" source="pgb" />
+    
+</widget>
